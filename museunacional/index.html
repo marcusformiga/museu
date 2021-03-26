@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Museu nacional</title>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <div id="container">
+      
+      <header>
+       
+        <div id="logo">
+          <h1><a href="">Museu nacional</a></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Pesquisa</a></li>
+                <li><a href="#">Acervo</a></li>
+                <li><a href="#">Vídeos</a></li>
+                <li><a href="#">Contato</a></li>
+                
+            </ul>
+        </nav>
+      </header> <!--fim do header-->
+      <div id="main">
+          <div id="content">
+            <section>
+                <img src="./images/museu.png" id="museum">
+            </section>
+            <section id="posts">
+              <article id="video">
+                <h3>Vídeo: conheça o museu nacional</h3>
+                <iframe width="360" height="155" src="https://www.youtube.com/embed/RGUYb-hivrc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                
+                </iframe>
+              </article>
+              <article id="map">
+                <h3>Encontre o museu</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.206311665321!2d-43.22871758549451!3d-22.905759985012295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1616761815575!5m2!1spt-BR!2sbr" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy">
+                
+                </iframe>
+              </article>
+              <article id="exhibition">
+                <h3>Exposições do museu</h3>
+                <ul>
+                  <li><a href="">Plantas do Brasil Central</a></li>
+                  <li><a href="">Arte com Dinossauros</a></li>
+                  <li><a href="">Teresa Cristina: A imperatriz</a></li>
+                  
+                </ul>
+              </article>
+              <article id="history">
+                <h3>200 anos de história</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis quia, hic magnam dolorum ut sequi rem quidem facere esse tempora. Ullam sint quo sit minus fugit totam, explicabo ipsam aspernatur.</p>
+
+              </article>
+            </section>
+          </div>
+          <aside>
+            <sectio id="asset">
+                <img src="./images/depoimento.png">
+            </sectio>
+            <section id="visit">
+                <h4>Faça a sua visita</h4>
+                <form>
+                    <fieldset>
+                    <legend>Selecione uma data</legend>
+                    <label for="data"></label>
+                    <input type="text" id="data" value="dd/mm/aaaa">
+                    <label for="Qtd"></label>
+                    <input type="text" id="qtd" value="1" placeholder="Número de visitantes">
+                  </fieldset>
+                  <input type="submit" id="submit" value="Verificar disponibilidade">
+                </form>
+
+            </section>
+            <section id="galery">
+              <a href="">
+                <img src="./images/imagem1.jpg" width="93" height="93" alt="imagem galeria">
+              </a>
+              <a href="">
+                <img src="./images/imagem2.jpg" width="93" height="93" alt="imagem galeria">
+              </a>
+              <a href="">
+                <img src="./images/imagem3.jpg" width="93" height="93" alt="imagem galeria">
+              </a>
+              <a href="">
+                <img src="./images/imagem4.jpg" width="93" height="93" alt="imagem galeria">
+              </a>
+            </section>
+          </aside>
+          <footer style="clear:both">
+            <h4>Feito por Marcus Formiga</h4>
+           
+          </footer>
+      </div>
+
+      
+      
+    </div> <!--fim do container-->
+    
+
+    <script src="script/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgba(244,230,255, 0.5) url("../images/fundo.png") repeat-x;
+    font-size: 14px ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+a:link, a:active, a:visited{
+    color: #af670a;
+    text-decoration: none;
+}
+a:hover{
+    color: #227115;
+}
+#container{
+    width: 1080px;
+    margin:  auto;
+}
+#logo a{
+    width: 248px;
+    height: 21px;
+    text-indent: -100000px;
+    display: block;
+    background: url("../images/logo.png") no-repeat;
+}
+#logo h1{
+    float: left;
+}
+header{
+    padding: 15px 0;
+    height: 55px;
+}
+nav ul{
+    list-style: none;
+    margin: 20px;
+    float: right;
+}
+nav ul li{
+    float: left;
+
+}
+nav ul li a:link{
+    display: block;
+    margin-right: 20px;
+    padding-bottom: 2px;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    border-bottom: 2px solid #535835;
+
+}
+#content{
+    width: 700px;
+    margin-bottom: 20px;
+    float: left;
+}
+aside{
+    width: 300px;
+    background: honeydew;
+    float: right;
+    margin-bottom: 20px;
+}
+#museum{
+    border-radius: 10px;
+    
+}
+section#visit{
+    background-color: #cfc8b1;
+    padding: 10px 27px 26px 25px;
+    margin-top: 10px;
+    
+}
+section#galery a{
+    display: block;
+    background: url("../images/fundo-foto.png") no-repeat;
+    float: left;
+    padding: 18px 16px 17px 16px;
+    margin: 10px 0 0 20px;
+}
+section#galery img{
+    margin-left: 3px;
+    margin-top: 4px;
+}
+article#video{
+    float: left;
+    width: 310px;
+    margin-left: 20px;
+
+}
+article#map{
+    float: left;
+    width: 310px;
+    margin-left: 40px;
+    
+}
+article#exhibition{
+    float: left;
+    width: 310px;
+    margin: 15px 0 0 25px;
+
+    
+}
+article#history{
+    float: left;
+    width: 310px;
+    margin:20px 0 0 37px;
+    
+}
+h4{
+    color: #86521b;
+    text-transform: uppercase;
+    padding-bottom: 4px;
+    margin-bottom: 0;
+}
+h3{
+    color: #b8aeb3;
+    font-size: 1em;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+input{
+    height: 40px;
+    width: 140px;
+    background-color: #fff4;
+    border: none;
+    font-size: 1em;
+}
+input#data:hover{
+    margin-bottom: 10px;
+    background-color: #86521b;    
+}
+input#qtd:hover{background-color: #86521b;}
+input#submit:hover{
+    cursor: pointer;
+    background-color: #af670a;
+    margin-top: 10px;
+    
+    color: aliceblue;
+}
+
+fieldset{
+    border: none;
+
+}
+footer{
+    padding: 20px 0 0 30px;
+    text-align: center;
+    background: url("../images/fundo-rodape.png") no-repeat;
+    
+}
